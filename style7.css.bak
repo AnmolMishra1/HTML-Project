@@ -1,0 +1,89 @@
+.b
+{
+margin-left:300px;
+font-size:15px;
+background-color:green;
+}
+a{
+color:red;
+}
+a:hover
+{
+font-size:120%;
+color:cyan;
+}
+h1
+{
+  text-align: center;
+  color: aliceblue;
+  font-style:David;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h2
+{
+  
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(224, 131, 128), 0 0 5px rgb(228, 149, 125);
+
+}
+h3
+{
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(37, 131, 138), 0 0 5px rgb(31, 167, 201);
+}
+
+input
+{
+border:3px solid rgb(226, 172, 162);
+color:black;
+font-weight:bold;
+}
+table,td,th
+{
+border-spacing:10px;
+text-align:left;
+font-weight:bold;
+font-size:23px;
+font-style:algeri;
+color:white;
+
+}
+textarea
+{
+font-weight:bold;
+width:100%;
+padding:12px 20px;
+margin:4px 0px;
+box-sizing: border-box;
+border: 5px solid powderred;
+border-radius:4px; 
+background-color:white;
+color:blue;
+
+
+}
+input:focus
+{
+border:5px solid red;
+color:black;
+}
+select
+{
+color:black;
+font-weight:bold;
+}
+hr
+{
+margin-left:50%;
+}
+.d
+{
+	margin-left:10px;
+	float:200px;
+	height:600px;
+	width:100%;
+	
+}
+.c
+{
+	margin-left:10px;
+}

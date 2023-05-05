@@ -1,0 +1,36 @@
+<DOCTYPE HTML>
+<html>
+<head>
+<style>
+input:focus
+{
+background-color:white;
+border:4px solid blue;
+}
+textarea
+{
+width:100%;
+padding:12px 20px;
+margin:4px 0px;
+box-sizing: border-box;
+border: 2px solid powderblue;
+border-radius:4px; 
+background-color:#EAEFE2;
+color:black;
+}
+select
+{
+background-color:violet;
+color:blue;
+}
+submit
+{
+background-color:violet;
+}
+textbox
+{
+background-color:blue
+color:blue;
+}
+</style>
+</head>

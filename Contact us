@@ -1,0 +1,34 @@
+<DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa-facebook
+      {
+       
+        background: #3B5998;
+        font-size: 0.5cm;
+        color: white;
+        text-align: center;
+      }
+      .fa-twitter 
+      {
+        background: #55ACEE;
+        color: white;
+        font-size: 0.5cm;
+
+      }  
+	  </style>
+<body>
+<a href="https://api.whatsapp.com/send?phone=7355280981">Whats App</a>
+      </br>
+      <br>
+      <a href="#" class="fa fa-facebook"> Facebook</a>
+      <br>
+      <a href="#" class="fa fa-twitter"> Twitter</a>
+      </br>
+	  </body>
+	  </head>
+</html>
+      <br>

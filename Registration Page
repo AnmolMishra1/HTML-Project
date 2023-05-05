@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="style7.css"> 
+<script type="text/javascript">
+function clicked()
+ {
+   alert('Your response is successfully recorded');
+}
+</script>
+<style>   
+input[type=button],input[type=reset],input[type= previous]  
+{
+background-color:green;
+color:white;
+font-size:20px;
+border-radius:10px;
+}
+a
+{
+text-decoration:none;
+}
+
+body
+{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/004/297/828/non_2x/blood-donation-linear-style-logo-concept-blood-transfusion-isolated-red-line-icon-on-black-background-heart-and-drop-symbol-for-charity-and-medicine-graphic-vector.jpg");
+  text-align:center;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color:white;
+}
+
+</style>
+</head>
+<body>
+<form>
+<form action="Login Page.html" method="post"/>
+<table>
+<h1 style= "text-align:center;color:gr;font-size:2.5cm;"><i>PUNJAB BLOOD BANK</i></h1> 
+<h2 style="text-align:center;color:rgb(230, 186, 150);font-size:1.5cm;"><i>Donate Blood & Save Life</i></h2>
+<tr>
+ <h3 style="text-align:center;color:rgb(82, 190, 204);font-size:0.8cm;"><i>A Social Initiative</i></h3>
+</tr>
+<td></br></td>
+<tr>
+<td style="text-align:center;"><i>Register yourself by filling the form below</i></td>
+</tr>
+<td></br></td>
+<tr>
+<td style="weight:bold;text-align:right;"> Why do you want to donate blood :</td>
+<td><textarea rows="3" cols="50" name="address" value="" placeholder="Approx in 100 words."></textarea></td>
+</tr>
+<tr>
+<td style="weight:bold;text-align:right;"> Who else can donate blood in your area :</td>
+<td><textarea rows="3" cols="8" name="address" value="" placeholder="Please mention their names."></textarea></td>
+</tr>
+<tr>
+<td style="text-align:right"> Refer this form to a friend :<br/></td>
+<td><a href="https://indianbloodbank.com/" >Link</a></td>
+</tr>
+<td></br></td>
+<tr>
+<br>
+<td  style="text-align:right">Find a donor from :</td>
+ <td><select name="dropdown">
+<option value="Graduation">CHANDIGARH</option>
+<option value="Post-Graduation">LUDHIANA</option>
+<option value="Doctrate">AMRITSAR</option>
+<option value="Post-Doctrate">PHAGWARA</option>
+<option value="Post-Doctrate">PATIALA</option>
+<option value="Post-Doctrate">PATHANKOT</option>
+<option value="Post-Doctrate">BATHINDA</option>
+<option value="Post-Doctrate">RUPNAGAR</option>
+<option value="Post-Doctrate">ANANDPUR SAHIB</option>
+<option value="Post-Doctrate">SANGRUR</option>
+ </tr>
+ <td></br></tr>
+<tr>
+ <td style="text-align:right;font-size:36px;"><i>DONOR DETAIL:</i></td>
+ </tr>
+ <tr>
+  <th style="text-align:right"><big><i>Name</i></big></td>
+    <td><input type="textbox" name="Devil" value="" required size="10" maxlength="30" placeholder="Enter your name"></td>   
+ </tr>
+ <tr>
+ <th style="text-align:right"><big><i>State:</i></big></td>
+ <td><input type="textbox" name="Devil" value="" required size="10" maxlength="20" placeholder="Enter your state"></td>
+ </tr>
+ <tr>
+ <th style="text-align:right">Gender:</th>
+  <td><select name="dropdown">
+<option value="Graduation" >MALE</option>
+<option value="Post-Graduation">FEMALE</option>
+<option value="Doctrate">OTHER</option>
+ </tr>
+ <tr>
+ <th style="text-align:right">Your Age :</th>
+ <td><input type="number" min="18" max="35" name="age" id="name" placeholder="Age"value=""required></td>
+ </tr>
+ <tr>
+ <th style="text-align:right"><i>City:</i></th>
+ <td><input type="textbox" name="Devil" value="" required size="10" maxlength="20"placeholder="Enter your city"></td>
+<video  class="d" controls height="200px" width="200px" autoplay muted loop >
+ <source src="world.mp4"type="video/mp4"></td>
+ </video>
+ </tr>
+ <tr>
+ <th  style="text-align:right"><i>Area:</i></th>
+ <td><input type="textbox" name="Devil" value=""required size="10" maxlength="20"placeholder="Enter your area"> </td>
+ </tr>
+ <tr>
+  <th  style="text-align:right"><i>Any Blood Disease:</i></th>
+  <td><select name="dropdown" >
+    <option value="Graduation">Yes</option>
+    <option value="Graduation">No</option>
+
+ </tr>
+ <tr>
+ <th  style="text-align:right"><i>Blood group:</i></th>  
+ <td><select name="dropdown" >
+<option value="Graduation">+O</option>
+<option value="Post-Graduation">-O</option>
+<option value="Doctrate">+A</option>
+<option value="Post-Doctrate">-A</option>
+<option value="Graduation">+B</option>
+<option value="Graduation">-B</option>
+<option value="Graduation">+AB</option>
+<option value="Graduation">-AB</option>
+</select>
+</tr>
+<tr>
+ <th style="text-align:right"><big>Previous Blood Record(if any)</big></td>
+ <td ><input type="file" name="upload" accept="pdf/doc/word" style="color:red"/></td>
+ </tr>
+<td></br></td>
+<tr>
+<td style="color:dark rgb(255, 249, 249)">Where would you like to donate blood:</td>
+<td><select name="dropdown" >
+<option value="Graduation" >CHANDIGARH</option>
+<option value="Post-Graduation">LUDHIANA</option>
+<option value="Doctrate">PHAGWARA</option>
+<option value="Post-Doctrate">AMRITSAR</option>
+<option value="Post-Doctrate">PATIALA</option>
+<option value="Post-Doctrate">PATHANKOT</option>
+<option value="Post-Doctrate">BATHINDA</option>
+<option value="Post-Doctrate">RUPNAGAR</option>
+<option value="Post-Doctrate">ANANDPUR SAHIB</option>
+<option value="Post-Doctrate">SANGRUR</option>
+</select>
+</tr>
+<td></br></td>
+<tr> 
+<td style="color:rgb(234, 234, 240);text-align:right;">Give Feedback:</td>
+<td><textarea rows="5" cols="50" name="address" value="" placeholder="Approx in 100 words."></textarea></td>
+</tr>
+<tr>
+<td><input type="button" class="b" onclick="clicked();" value="submit"></td>
+<td><input type="reset" class="c" name="reset" value="reset"></td>
+</tr>
+<tr>
+<td><a href="Login Page.html" type="button" name="submit" value="Previous"/>Previous</a></td>
+</tr>
+<tr>
+<td><a href="donationprocess.html" class="next">Blood donation processs</a></td>
+</tr>
+<tr>
+<td><a href="camp.html" class="next">Upcoming Camps</a></td>
+</tr>
+<tr>
+<td><a href="benifitus.html" class="next">Benifit of blood donation</a></td>
+</tr>
+<tr>
+<td><a href="aboutus.html" class="next">About us</a></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

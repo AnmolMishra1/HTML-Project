@@ -1,0 +1,104 @@
+ <!DOCTYPE HTML>
+<html>
+<head>   
+     <title>Registration Form</title>
+
+     <style >
+	 *{
+	 color:black;
+	 }
+ .main{
+ font-size:20px;
+ margin: auto ;
+ width: 50%;
+ height: 80%;
+ border: 3px solid;
+ padding: 10px;  
+ border-radius: 20px;
+ background-color: #ccccc;
+ top: 150px;
+right : 350px;
+position: absolute;
+text-align:center;
+background-color:grey;
+opacity:0.8;
+}
+
+body 
+{
+ background-image: url("paper.jpeg");
+
+ background-color: #cccccc;
+
+ left : 0px;
+
+ right :100px;
+ 
+ background-size:cover; 
+}
+
+.heading
+{
+     position: absolute;
+      margin: auto ;
+      right : 480px;
+
+      font-size: 40;
+
+      color: darkred;
+    
+
+}
+.b
+{
+border-radius:5px;
+}
+input[type=submit],input[type=reset]
+{
+background-color:green;
+color:white;
+font-size:20px;
+border-radius:10px;
+}
+
+
+     </style>
+</head>
+<body >
+<form action="Registration.html" method="post"/>
+
+     <div  align="middle" >
+          
+          <h1 style="color:red; font-size:70px;" >Blood Donation</h1>
+
+     </div>
+
+
+<div class="main">
+<div class="register">
+      <h1 align="center">Login Here</h1>
+       <form id="register" method="post">
+      <h2>First name<h2>
+      <input  class="b" type="text" name="fname"id="name" placeholder="Enter your first name" value=""required>
+      <br><br>
+      <label> Last name</label>
+      <br>
+      <input  class="b"type="text" name="lname" id="name" placeholder="Enter Your last name"value=""required>
+       <br><br>
+      <label>Your Age</label>
+      <br>
+      <input class="b" type="number" min="18" max="35" name="age" id="name" placeholder="How old are you?"value=""required>
+      <br><br>
+      <label>Contact Num </label>
+      <br>
+      <input class="b" type="contact num" name "contact num" id="name" placeholder="(optional)">
+      <br><br>
+      <input type="submit" value="submit" name="submit" id="submit">
+	  <input type="reset" value="reset" name="reset" id="reset">
+	  
+	  <label>
+      </form>
+</div><!--end register-->
+</div><!--end main-->
+</body>
+</html>
